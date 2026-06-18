@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <stdio.h>
 
-struct MemoryDBServer server;
+MemoryDBServer server;
 
 void initServer(int port) {
     server.pid = getpid();
