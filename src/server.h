@@ -1,3 +1,6 @@
+#ifndef SERVER_H
+#define SERVER_H
+
 #include <sys/types.h>
 #include <pthread.h>
 
@@ -24,3 +27,5 @@ void initServer(int port);
 void startServer();
 
 void closeServer();
+
+#endif
